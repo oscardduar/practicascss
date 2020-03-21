@@ -1,3 +1,52 @@
 body{
     background-color: black;
 }
+
+.superpadre{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+.padre{
+    display: none;
+    background-color: green;
+    width: 350px;
+    height: 350px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
+}
+
+.hijo{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+;
+}
+
+.hij2{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+
+
+.padre2{
+    display: grid;
+    background-color: blue;
+    width: 350px;
+    height: 350px;
+    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+}
+
+.hijo2{
+    background-color: red;
+    grid-area: 5/6/12/8;
+}
